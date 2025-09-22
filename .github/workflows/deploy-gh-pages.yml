@@ -13,7 +13,7 @@ jobs:
       matrix:
         node-version: [22.19.0]
     steps:
-      - uses: Kesin11/actions-timeline@v1
+      - uses: Kesin11/actions-timeline@v2
       - name: Checkout
         uses: actions/checkout@v5
 
